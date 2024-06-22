@@ -1,0 +1,16 @@
+@media print {
+    /* Apply specific styles for print media */
+    body {
+      font-size: 12px; /* Adjust font size for print */
+    }
+  
+    /* Add any additional styles specific to the print layout */
+    .table-wrap {
+      overflow-x: auto; /* Ensure horizontal scrolling for tables if needed */
+    }
+
+    .navbar-header-name{
+        text-decoration: underline;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "bootstrap-vue": "^2.23.1",
+    "chart.js": "^4.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "html-minifier": "^4.0.0",
+    "mqtt": "^4.3.7",
+    "vue": "^3.3.4",
+    "vue-chartjs": "^5.2.0"
+  },
+  "name": "dead_letter_queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-read": "node scripts/read-mqtt-client.js",
+    "start-write": "node scripts/write-to-dead-letter-queue.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
